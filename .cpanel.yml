@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/k7380702/hris.cleanvyasalta.co.id/
+    - /bin/cp -R images $DEPLOYPATH
